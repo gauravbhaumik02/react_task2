@@ -1,0 +1,29 @@
+#cal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+button{
+    height:4rem;
+    width: 5rem;
+    color: white;
+    background-color: #070B26;
+    border: none;
+    font-size: larger;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(212, 212, 212);
+}
+p{
+    color: white;
+    font-size:x-large;
+    margin: 15%;
+}
+.screen{
+    border-radius: 0px 0px 0px 0px !important;
+}
+#screen p{
+    position: relative;
+}
